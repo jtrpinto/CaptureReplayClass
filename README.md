@@ -24,6 +24,6 @@ First, both tools require Java, so be sure to have JDK/JRE 7 or 8 installed on y
   <li>Before executing "sikulixsetup-1.1.0.jar", create a folder right on your C: or D: disk (like "C:\Sikuli" or "D:\Sikuli"), ensuring the path to it includes no whitespaces. This folder should not have any writing restrictions;</li>
   <li>Move/copy the "sikulixsetup-1.1.0.jar" to this folder and execute it;</li>
   <li>Select options "Pack1" and "Pack2", and click "Setup Now";</li>
-  <li>Allow some time for it to install the selected packs;</li>
+  <li>Allow some time for it to download and install the selected packs, confirm when prompted during installation;</li>
   <li>To open SikuliX IDE, execute "sikulix.jar", "SikuliX.exe" (Windows), or "Sikulix.app" (Mac).</li>
 </ul>
