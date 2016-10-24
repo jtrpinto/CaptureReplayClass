@@ -10,6 +10,14 @@ This readme explains how to setup thing that are needed for the class.
 First, both tools require Java, so be sure to have JDK/JRE 7 or 8 installed on your computer. You can get it from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 </p>
 
+### Badboy
+<ul>
+  <li>Download the installer at: http://www.badboy.com.au/download. It should ask you some information, but you can skip it. Select the most recent version to download;</li>
+  <li>Execute the downloaded file to install (.exe only, sorry to the mac users :( )</li>
+  <li>When completed, "C:\{ Your Program Files folder }\Badboy";</li>
+  <li>Execute "badboy.exe" to start Badboy.</li>
+</ul>
+
 ### Jacareto
 <ul>
   <li>Download it at: https://sourceforge.net/projects/jacareto/files/jacareto/0.8.1/jacareto-bin-0.8.1.zip;</li>
