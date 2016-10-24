@@ -7,7 +7,7 @@ This readme explains how to setup thing that are needed for the class.
 
 ## Setup
 <p>
-First, both tools require Java, so be sure to have JDK/JRE 7 or 8 installed on your computer. You can get it from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
+First, both Jacareto and SikuliX require Java, so be sure to have JDK/JRE 7 or 8 installed on your computer. You can get it from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 </p>
 
 ### Badboy
