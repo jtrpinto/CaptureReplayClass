@@ -7,7 +7,7 @@ This readme explains how to setup thing that are needed for the class.
 
 ## Setup
 <p>
-First, both Jacareto and SikuliX require Java, so be sure to have JDK/JRE 7 or 8 installed on your computer. You can get it from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
+First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 installed on your computer. You can get it from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 </p>
 
 ### Badboy
@@ -34,4 +34,14 @@ First, both Jacareto and SikuliX require Java, so be sure to have JDK/JRE 7 or 8
   <li>Select options "Pack1" and "Pack2", and click "Setup Now";</li>
   <li>Allow some time for it to download and install the selected packs, confirm when prompted during installation;</li>
   <li>To open SikuliX IDE, execute "sikulix.jar", "SikuliX.exe" (Windows), or "Sikulix.app" (Mac).</li>
+  
+### SWTBot
+<ul>
+  <li>SWTBot requires Eclipse, so, if you don't already have it, make sure to install it from: http://www.eclipse.org/downloads/;</li>
+  <li>Inside Eclipse: go to the menu bar > "Help" > "Install New Software...";</li>
+  <li>On the field "Work with:", input the following link: http://download.eclipse.org/technology/swtbot/releases/latest/;</li>
+  <li>Select all SWTBot software listed, and click next;</li>
+  <li>Read and agree to the terms and conditions, and allow it to finish the installation;</li>
+  <li></li>
+</ul>
 </ul>
