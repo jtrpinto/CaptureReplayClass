@@ -18,7 +18,6 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>Execute "badboy.exe" to start Badboy.</li>
 </ul>
 
- <!--
 ### Jacareto
 <ul>
   <li>Download it at: https://sourceforge.net/projects/jacareto/files/jacareto/0.8.1/jacareto-bin-0.8.1.zip;</li>
@@ -26,7 +25,6 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>Go to that directory, inside you will find a "jars" folder;</li>
   <li>Inside "jars", execute "cleverphl.jar" to use Jacareto.</li>
 </ul>
--->
 
 ### SikuliX
 <ul>
