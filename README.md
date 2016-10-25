@@ -43,6 +43,6 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>On the field "Work with:", input the following link: http://download.eclipse.org/technology/swtbot/releases/latest/;</li>
   <li>Select all SWTBot software listed, and click next;</li>
   <li>Read and agree to the terms and conditions, and allow it to finish the installation;</li>
-  <li></li>
+  <li>SWTBot Generator can be initialized by going to the menu bar > "File" > "New" > "Other" -> "SWTBot" > "Run Test Recorder".</li>
 </ul>
 </ul>
