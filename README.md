@@ -1,7 +1,7 @@
 # Capture Replay Class
 <p>
-Github repository for the TVVS class about Capture Replay.
-This readme explains how to setup thing that are needed for the class.
+This is the Github repository for the TVVS class about Capture Replay.<br>
+This readme explains how to setup things that are needed for the class.
 </p>
 
 
