@@ -14,7 +14,7 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
 <ul>
   <li>Download the installer at: http://www.badboy.com.au/download. It should ask you some information, but you can skip it. Select the most recent version to download;</li>
   <li>Execute the downloaded file to install (.exe only, sorry to the mac users :( )</li>
-  <li>When completed, "C:\{ Your Program Files folder }\Badboy";</li>
+  <li>When completed, go to "C:\{ Your Program Files folder }\Badboy";</li>
   <li>Execute "badboy.exe" to start Badboy.</li>
 </ul>
 
