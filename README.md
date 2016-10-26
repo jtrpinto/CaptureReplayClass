@@ -18,14 +18,6 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>Execute "badboy.exe" to start Badboy.</li>
 </ul>
 
-### Jacareto ==========================================
-<ul>
-  <li>Download it at: https://sourceforge.net/projects/jacareto/files/jacareto/0.8.1/jacareto-bin-0.8.1.zip;</li>
-  <li>Extract the files to a folder of your choice;</li>
-  <li>Go to that directory, inside you will find a "jars" folder;</li>
-  <li>Inside "jars", execute "cleverphl.jar" to use Jacareto.</li>
-</ul>
-
 ### SikuliX
 <ul>
   <li>Download it at: https://launchpad.net/sikuli/sikulix/1.1.0 (under "Download files for this release", the "sikulixsetup-1.1.0.jar" file);</li>
@@ -34,16 +26,5 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>Select options "Pack1" and "Pack2", and click "Setup Now";</li>
   <li>Allow some time for it to download and install the selected packs, confirm when prompted during installation;</li>
   <li>To open SikuliX IDE, execute "sikulix.jar", "SikuliX.exe" (Windows), or "Sikulix.app" (Mac).</li>
-</ul>
-
-
-### SWTBot ================================================================
-<ul>
-  <li>SWTBot requires Eclipse, so, if you don't already have it, make sure to install it from: http://www.eclipse.org/downloads/;</li>
-  <li>Inside Eclipse: go to the menu bar > "Help" > "Install New Software...";</li>
-  <li>On the field "Work with:", input the following link: http://download.eclipse.org/technology/swtbot/releases/latest/;</li>
-  <li>Select all SWTBot software listed, and click next;</li>
-  <li>Read and agree to the terms and conditions, and allow it to finish the installation;</li>
-  <li>SWTBot Generator can be initialized by going to the menu bar > "File" > "New" > "Other" -> "SWTBot" > "Run Test Recorder".</li>
 </ul>
 
