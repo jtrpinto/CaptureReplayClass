@@ -8,6 +8,8 @@ This readme explains how to setup things that are needed for the class.
 ## Setup
 <p>
 First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 installed on your computer. You can get it from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
+</p>
+<p>
 <b>For the class exercise, you will only need SikuliX</b>, but we also present installation instructions below for other tools that will be presented, if you want to experiment with them.
 </p>
 
