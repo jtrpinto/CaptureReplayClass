@@ -34,5 +34,5 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>Provide the required information, and allow it to install.</li>
 </ul>
 
-<br><br>
+<br>
 <p>For more information, feel free to contact <b>ribeiro.pinto@fe.up.pt</b>.</p>
