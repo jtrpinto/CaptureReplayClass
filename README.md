@@ -28,3 +28,8 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>To open SikuliX IDE, execute "sikulix.jar", "SikuliX.exe" (Windows), or "Sikulix.app" (Mac).</li>
 </ul>
 
+### Ranorex
+<ul>
+  <li>Ranorex is paid, but an evaluation version can be downloaded at: http://www.ranorex.com/;</li>
+  <li>Provide the required information, and allow it to install;</li>
+</ul>
