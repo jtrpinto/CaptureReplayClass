@@ -2,7 +2,7 @@
 <WebScript v='30205'>
 	<Variables>
 	</Variables>
-	<nextScriptId>275</nextScriptId>
+	<nextScriptId>279</nextScriptId>
 	<Object>null</Object>
 	<dataSources>
 	</dataSources>
@@ -10,8 +10,10 @@
 		<ver>14</ver>
 		<id>1</id>
 		<Summary v='3'>
-			<maxResponseTime>0</maxResponseTime>
-			<averageResponseTime>0</averageResponseTime>
+			<played>1</played>
+			<succeeded>1</succeeded>
+			<maxResponseTime>906</maxResponseTime>
+			<averageResponseTime>906</averageResponseTime>
 		</Summary>
 		<childCount>1</childCount>
 		<ChildItems>
@@ -19,8 +21,10 @@
 				<ver>14</ver>
 				<id>4</id>
 				<Summary v='3'>
-					<maxResponseTime>0</maxResponseTime>
-					<averageResponseTime>0</averageResponseTime>
+					<played>1</played>
+					<succeeded>1</succeeded>
+					<maxResponseTime>906</maxResponseTime>
+					<averageResponseTime>906</averageResponseTime>
 				</Summary>
 				<childCount>9</childCount>
 				<ChildItems>
@@ -28,8 +32,10 @@
 						<ver>14</ver>
 						<id>126</id>
 						<Summary v='3'>
-							<maxResponseTime>0</maxResponseTime>
-							<averageResponseTime>0</averageResponseTime>
+							<played>1</played>
+							<succeeded>1</succeeded>
+							<maxResponseTime>906</maxResponseTime>
+							<averageResponseTime>906</averageResponseTime>
 						</Summary>
 						<timeoutEnabled>false</timeoutEnabled>
 						<Object>null</Object>
@@ -44,9 +50,9 @@
 						<ignoreErrors>false</ignoreErrors>
 						<errorFilter/>
 						<Object>null</Object>
-						<host/>
-						<path>D:/DOCS/Bioengenharia/501 TVVS/exercises/badboy/bbc_v1.html</path>
-						<protocol>file</protocol>
+						<host>jtrpinto.github.io/badboy/bbc.html</host>
+						<path/>
+						<protocol>http</protocol>
 						<resource/>
 						<targetFrame/>
 						<isActive>1</isActive>
