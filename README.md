@@ -61,6 +61,10 @@ First, some of the tools require Java, so be sure to have JDK/JRE 7 or 8 install
   <li>After building the script, refresh the page and run it to make sure it works (it shouldn't present any error, make sure to use if conditionals to avoid the script from stopping before the end).</li>
 </ul>
 
-### B.
+### B. Checking on a flawed site
 
-Soon...
+<ul>
+  <li>In chrome, open a new page at jtrpinto.github.io/badboy/bbc.html;</li>
+  <li>Run the script with this page open;</li>
+  <li>Verify the results of the tests (3 of them should fail).</li>
+</ul>
