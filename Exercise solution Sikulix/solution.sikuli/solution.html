@@ -1,0 +1,142 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>solution.sikuli</h2> <a href="solution.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="cmt">#Solution for the exercise. Made for chrome, may not work everywhere.</span>
+tests = [<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">0</span>]
+
+<span class="cmt">#TEST 1: WEBSITE HAS ALL NEEDED ELEMENTS:</span>
+<span class="kw">if</span> (<span class="kw">not</span> exists(<img src="1477510041399.png" />) <span class="kw">or</span> <span class="kw">not</span> exists(<img src="1477510051035.png" />) <span class="kw">or</span> <span class="kw">not</span> exists(<img src="1477510059831.png" />)):
+    tests[<span class="dig">0</span>] = <span class="dig">1</span>
+
+
+<span class="cmt">#TEST 2: SITE SHOWS ERROR MESSAGE WHEN USER DOES NOT ACCEPT RULES:</span>
+<span class="skw">click</span>(<img src="1477510245598.png" />)
+<span class="kw">if</span>(<span class="kw">not</span> exists(<img src="1477510263955.png" />)):
+    tests[<span class="dig">1</span>] = <span class="dig">1</span>
+
+
+<span class="cmt">#TEST 3: SITE SHOWS ERROR MESSAGE WHEN REQUIRED FIELDS ARE EMPTY:</span>
+<span class="kw">if</span> (exists(<img src="1477510920069.png" />)):
+    <span class="skw">click</span>(<img src="1477510925357.png" />)
+
+<span class="skw">click</span>(<img src="1477510545400.png" />)
+<span class="skw">click</span>(<img src="1477510563984.png" />)
+<span class="kw">if</span>(<span class="kw">not</span> exists(<img src="1477510601320.png" />)):
+    tests[<span class="dig">2</span>] = <span class="dig">1</span>
+
+
+<span class="cmt">#TEST 4: SITE SHOWS ERROR MESSAGE WHEN NAME IS A NUMBER:</span>
+<span class="kw">if</span> (exists(<img src="1477510920069.png" />)):
+    <span class="skw">click</span>(<img src="1477510925357.png" />)
+
+<span class="skw">type</span>(<img src="1477511178377.png" />,<span class="str">"123456"</span>)
+<span class="skw">type</span>(<img src="1477511434397.png" />,<span class="str">"aaabbb"</span>)
+<span class="skw">type</span>(<img src="1477511449445.png" />,<span class="str">"NYC"</span>)
+<span class="skw">type</span>(<img src="1477511478149.png" />,<span class="str">"123"</span>)
+<span class="skw">click</span>(<img src="1477510563984.png" />)
+<span class="kw">if</span>(<span class="kw">not</span> exists(<img src="1477511333213.png" />)):
+    tests[<span class="dig">3</span>] = <span class="dig">1</span>
+
+<span class="cmt">#TEST 5: SITE SHOWS ERROR MESSAGE WHEN AGE IS NOT A NUMBER:</span>
+<span class="kw">if</span> (exists(<img src="1477510920069.png" />)):
+    <span class="skw">click</span>(<img src="1477510925357.png" />)
+<span class="skw">type</span>(<img src="1477511571499.png" />,Key.HOME+Key.DELETE+Key.DELETE+Key.DELETE+Key.DELETE+Key.DELETE+Key.DELETE+<span class="str">"john bay"</span>)
+<span class="skw">click</span>(<img src="1477510563984.png" />)
+<span class="kw">if</span>(<span class="kw">not</span> exists(<img src="1477512005891.png" />)):
+    tests[<span class="dig">4</span>] = <span class="dig">1</span>
+
+
+<span class="cmt">#TEST 6: SITE SHOWS ERROR MESSAGE WHEN COUNTRY IS A NUMBER:</span>
+<span class="kw">if</span> (exists(<img src="1477510920069.png" />)):
+    <span class="skw">click</span>(<img src="1477510925357.png" />)
+<span class="skw">type</span>(<img src="1477511896599.png" />,Key.HOME+Key.DELETE+Key.DELETE+Key.DELETE+Key.DELETE+Key.DELETE+Key.DELETE+<span class="str">"32"</span>)
+<span class="skw">click</span>(<img src="1477510563984.png" />)
+<span class="kw">if</span>(<span class="kw">not</span> exists(<img src="1477512084635.png" />)):
+    tests[<span class="dig">5</span>] = <span class="dig">1</span>
+
+
+<span class="cmt">#TEST 7: SITE SHOWS SUCCESS MESSAGE AT THE END:</span>
+<span class="kw">if</span> (exists(<img src="1477510920069.png" />)):
+    <span class="skw">click</span>(<img src="1477510925357.png" />)
+<span class="skw">type</span>(<img src="1477512144995.png" />,Key.HOME+Key.DELETE+Key.DELETE+Key.DELETE+<span class="str">"usa"</span>)
+<span class="skw">click</span>(<img src="1477510563984.png" />)
+<span class="kw">if</span>(<span class="kw">not</span> exists(<img src="1477512184349.png" />)):
+    tests[<span class="dig">6</span>] = <span class="dig">1</span>
+
+
+<span class="cmt">#SHOWING TEST RESULTS:</span>
+<span class="kw">for</span> n <span class="kw">in</span> range(<span class="dig">7</span>):
+    <span class="kw">if</span> (tests[n] == <span class="dig">1</span>):
+        <span class="kw">print</span> <span class="str">"Test "</span> + str(n+<span class="dig">1</span>) + <span class="str">" failed!"</span>
+</pre>
+</body>
+</html>
